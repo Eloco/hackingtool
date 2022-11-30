@@ -1,0 +1,13 @@
+tasks:
+  - name: hackingtool
+    command: |
+      chmod -R 755 hackingtool  
+      sudo pip3 install -r requirement.txt
+      bash install.sh
+      sudo hackingtool
+
+## Ports to expose on workspace startup
+#ports:
+#  - port: 8080
+#    onOpen: open-preview
+#    name: ttyd
