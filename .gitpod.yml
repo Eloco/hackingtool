@@ -4,7 +4,7 @@ tasks:
       chmod -R 755 hackingtool  
       sudo pip3 install -r requirement.txt
       echo "1" | sudo bash install.sh
-      echo "2" | sudo hackingtool
+      sudo hackingtool
   - name: bash
     command: |
       date
