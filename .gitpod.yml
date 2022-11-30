@@ -3,7 +3,7 @@ tasks:
     command: |
       chmod -R 755 hackingtool  
       sudo pip3 install -r requirement.txt
-      bash install.sh
+      echo "1" | sudo bash install.sh
       sudo hackingtool
 
 ## Ports to expose on workspace startup
